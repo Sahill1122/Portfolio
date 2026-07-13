@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">   <!-- Dancing Script-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> <!-- Lato -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet"> <!--space grotesk-->
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <span><b><font size="+4">PORTFOLIO</font></b></span>  
+          <ul id="sidemenu">
+            <li><a href ="#home">Home</a></li>
+            <li><a href ="#header">About</a></li>
+            <li><a href ="#skills">Skills</a></li>
+            <li><a href ="#content">Content</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <img class="profile-img" src ="sssss.jpg" alt="Portfoilo Picture">
+        <div class="headertext">
+          <h1>Hi I'am <span>Sahil Chauhan</span></h1>
+          <p>Frontend Developer </p>
+          <span id="element">I code in Java,C,Python...</span>
+        </div>
+      </div>
+    </div>
+
+  <!--     About Me       -->
+  <div id="about">
+    <div class="row">
+      <div class="about-col1">
+          <img src="sssss.jpg">
+      </div>
+      <div class="about-col2">
+            <div>
+            <h1 class="sub-tital">About Me</h1>
+            <p>Hello there! I'm Sahil Chauhan, a passionate and ambitious 3th-year B.Tech student majoring in Computer Science and Engineering. 
+               During my academic journey, I have developed a strong foundation in computer science fundamentals and honed my technical skills 
+               in areas such as programming languages, data structures, algorithms, and software development.</p>
+            </div>
+
+            <div class="tabtitles">
+                <p class="tablinks active-link" onclick="opentab('skills')">skills</p>
+                <p class="tablinks" onclick="opentab ('education')">Education</p>
+            </div>
+
+            <div class="tabcontents active-tab" id="skills">
+              <ul>
+                  <li><span>HTML,CSS,Javascript</span><br>Web Developement</li>
+                  <li><span>Java,C,Python</span><br>Programmin Language</li>
+                  <li><span>DSA,DBMS,OOPS,Computer Networking,Operating System</span><br>Course Fundamentals</li>
+              </ul>
+            </div>
+
+            <div class="tabcontents" id="experience">
+              <ul>
+                  <li><span>Certification </span></li>
+                  <li><span>45+ Coding Question across platform like LeetCode,GFG and Coding Ninjas</span></li>
+              </ul>
+            </div>
+
+            <div class="tabcontents" id="educations">
+              <ul>
+                  <li><span>2027</span><br>B.Tech in Computer Science - 75.57 SGPA<br>Lloyd Institute of Engineering and Technology(Greater Noida.) </li>
+                  <li><span>2024</span><br>Diploma in Computer Science - 72.69<br>J.R.N. Rajasthan Vidyapeeth Deemend-to-be-University(Rajasthan.)</li>
+              </ul>
+        </div>
+      </div>
+    </div>
+  </div>   
+           <!---------Work Experience------->
+           <!---------Projects ------------->
+  <!---------Coding Profiles------->
+  <div id="coiding">
+    <div class="container">
+        <h1 class="sub-title">Profiles</h1>
+        <div class="coding-list">
+            <div>
+              <h2>Leetcode</h2>
+              <a href="https://leetcode.com/u/Sahilll1122/" target="_blank">Click Here</a>
+           </div>
+           <div>
+            <h2>Git Hub</h2>
+            <a href="https://github.com/Sahill1122" target="_blank">Click Me</a>
+           </div>
+           <div>
+            <h2>Linkdin</h2>
+            <a href="https://www.linkedin.com/in/sahilchauhan1120/" target="_blank">Click Me</a>
+           </div>
+        </div>
+    </div>
+  </div>
+          
+<!---------Contact------------->
+  <div>
+    <h1>Contact</h1>
+        <p>sahilc200204@gmail.com</p>
+        <p>7900990559</p>
+  <div>
+    <p>Looking forward to you Connecting with you Sahil </p>
+  </div>
+</header>
+    
+</body>
+</html>
