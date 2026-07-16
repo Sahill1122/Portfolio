@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 // kinetic grid start here  
+=======
+>>>>>>> 79e790322da9a5a4354ca1bd1e2d17842134b3d8
 const canvas = document.getElementById("kinetic-grid");
 const ctx = canvas.getContext("2d");
 
@@ -51,7 +54,11 @@ function draw() {
     requestAnimationFrame(draw);
 }
 
+<<<<<<< HEAD
 draw();
 
 
 // kinetic grid ends here........
+=======
+draw();
+>>>>>>> 79e790322da9a5a4354ca1bd1e2d17842134b3d8
