@@ -149,7 +149,7 @@ nav ul li a:hover {
     font-weight: 600;
     color: white;
  }
- .tabtitle {
+ .tabtitles {
     display:flex;
     margin: 20px 0 40px;
  }
@@ -169,7 +169,7 @@ nav ul li a:hover {
     background: red;
     position: absolute;
     bottom: -8px;
-    transition : -0.5s;
+    transition : 0.5s;
  }
  .tablinks.active-link::after{
     width: 100%;
@@ -184,7 +184,7 @@ nav ul li a:hover {
     color: red;
     font-size: 14px;
  }
- .tabcontants {
+ .tabcontents {
     display: none;
  }
 .tabcontents.active-tab {
