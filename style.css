@@ -9,9 +9,20 @@ body {
     color: #fff;
 
 }
+html {
+    scroll-behavior: smooth;
+}
+#header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(bgp.jpg);
+    background-position: center;
+}
 .container{
     padding: 10px 10%;
 }
+
 
 
 
@@ -49,12 +60,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;  /* THIS centers menu and portfolio vertically */
-    padding: 10px 12%;
+    padding: 10px ;
     
 }
 .headertext {
-    padding: 12%;
+    padding: 13% 12% 12% 1%;
     font-size: 20px;
+    
     
 }
 .headertext h1 span {
@@ -97,7 +109,7 @@ nav {
     height: 550px;
 
     float: right;
-    margin-right: 220px;
+    margin-right: 70px;
     margin-top: 40px;
 
     border-radius: 20px;
@@ -171,20 +183,19 @@ nav {
 
 
 nav ul li  {
-    display: inline-block
+    display: inline-block;
+    list-style: none;
+    margin: 10px, 20px;
     
 }
 nav ul li a{
-    margin:10px;
+    
     color: white;
-    padding-top: 2px;
     padding: 25px;
     font-size: 20px;
     text-decoration: none;
     transition: 0.1s ease-in-out;
-    text-decoration: underline;
-    text-decoration-color: red;
-    transition: 0.1s ease-in-out;
+    position: relative;
 
 }
 nav ul li a:hover {
@@ -230,8 +241,8 @@ nav ul li a:hover {
     flex-basis: 60%;
  }
  .sub-title {
-    font-size: 60px;
-    font-weight: 600;
+    font-size: 80px;
+    font-weight: 800;
     color: white;
  }
  .tabtitles {
