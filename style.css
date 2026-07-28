@@ -333,6 +333,96 @@ nav ul li a:hover {
 }
 
 
+/*---------Projects -------*/
+#portfolio {
+    padding: 50px 0;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 60px;
+    margin-top: 50px;
+}
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    border: solid 1.5px #271818;
+}
+.work img {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0 25px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3{
+    font-weight: 500px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.layer p{
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center;
+    left: -5px; 
+}
+.layer a {
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 59px;
+    background:#fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.work:hover img{
+    transform: scale(1,1);
+}
+.work:hover .layer {
+    height: 100%;
+}
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #ff004f;
+}
+
+
 
 
 
