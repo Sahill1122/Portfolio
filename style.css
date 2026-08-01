@@ -291,7 +291,7 @@ nav ul li a:hover {
 
 
 #services{
-    padding: 30px 0;
+    padding: 90px 0;
 }
 .services-list {
     display: grid;
@@ -547,4 +547,81 @@ form .btn2 {
 }
 .copyright {
     color: white;
+}
+
+
+
+
+/* ---------------------Mobile view---------------- */
+
+nav .fas{
+    display: none;
+}
+
+@media only screen and (max-width: 800px){
+    #header{background-image: url(Mobile\ img.jpg);}
+
+    .headertext{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+        
+    .headertext h1{
+        font-size: 30px;
+    }
+
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        cursor: pointer;
+        left: 25px;
+    }
+    .sub-title{
+        font-size: 40px;
+
+    }
+    .about-col1, .about-col2{
+        flex-basis: 100%;
+    }
+    .about-col1{
+        margin-bottom: 30px;
+    }
+    .about-col2{
+        font-size: 14px;
+    }
+    .tablinks{
+        font-size: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+}
+/* .work img{
+    width: 100%;
+} */
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+    margin-left: 16px;
 }
