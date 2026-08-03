@@ -105,8 +105,8 @@ nav {
 
 .profile-card{
     position: relative;
-    width: 520px;
-    height: 760px;
+    width: 600px;
+    height: 800px;
 
     float: right;
     margin-right: -20px;
@@ -178,6 +178,9 @@ nav {
     transform: translate(-100%, -100%) translate3d(0,0,0);
   }
 }
+
+
+
 
 
 
