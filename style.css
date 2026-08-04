@@ -179,15 +179,6 @@ nav {
   }
 }
 
-
-
-
-
-
-
-
-
-
 nav ul li  {
     display: inline-block;
     list-style: none;
@@ -195,20 +186,30 @@ nav ul li  {
     
 }
 nav ul li a{
-    
     color: white;
-    padding: 25px;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
-    transition: 0.1s ease-in-out;
     position: relative;
+    display: inline-block;
+    padding: 0;              /* Remove padding */
+    margin: 0 25px;          /* Use margin instead */
+    line-height: 40px;       /* Gives vertical spacing */
+}
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    transition: width .3s ease;
+}
 
+nav ul li a:hover::after{
+    width: 100%;
 }
-nav ul li a:hover {
-    transition-duration: 0.1s;
-    transition-property: all;
-    transition-delay: 0.1s;
-}
+
 
 #sidemenu li a {
     text-decoration: none;
