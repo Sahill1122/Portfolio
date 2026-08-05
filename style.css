@@ -69,10 +69,28 @@ nav {
     
     
 }
-.headertext h1 span {
+
+.headertext h1 .shiny-text{
     font-family: "Dancing Script", cursive;
-    color: red;
     font-size: 80px;
+    font-weight: 700;
+
+    background: linear-gradient(
+        120deg,
+        #ff004f 0%,
+        #ff004f 40%,
+        #ffffff 50%,
+        #ff004f 60%,
+        #ff004f 100%
+    );
+
+    background-size: 300% auto;
+
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    animation: shine 9s linear infinite;
 }
 .headertext h1 {
     font-family: "Dancing Script", cursive;
@@ -178,6 +196,25 @@ nav {
     transform: translate(-100%, -100%) translate3d(0,0,0);
   }
 }
+
+
+@keyframes shine{
+    0%{
+        background-position: 300% center;
+    }
+    100%{
+        background-position: -300% center;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 nav ul li  {
     display: inline-block;
