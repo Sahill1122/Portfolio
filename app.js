@@ -75,3 +75,15 @@ function opentab(tabname) {
 }
 
 
+
+// ---------------- Typing Animation ----------------
+
+var typed = new Typed("#element", {
+    strings: ["I code in Java, C, Python..."],
+    typeSpeed: 70,
+    showCursor: true,
+    cursorChar: "|",
+    loop: false
+});
+
+
