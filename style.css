@@ -63,6 +63,7 @@ nav {
     padding: 10px ;
     
 }
+
 .headertext {
     padding: 13% 12% 12% 1%;
     font-size: 20px;
@@ -156,7 +157,7 @@ nav {
     position: absolute;
     width: 220px;
     height: 220px;
-    background: #ff0000;
+    background: #ff004f;
     border-radius: 50%;
     filter: blur(35px);
     animation: blob-bounce 5s infinite linear;
