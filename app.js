@@ -68,7 +68,7 @@ const lightningCtx =
 ----------------------------------------- */
 
 const lightningSettings = {
-    color: "#ff004f",
+    color: "#ffffff",
     thickness: 0.8,
     glowIntensity: 10,
     trailLength: 7,
