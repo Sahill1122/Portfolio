@@ -561,10 +561,10 @@ nav ul li a:hover::after{
 /* Profile icons/images */
 
 .coding-list div img {
-    width: 60px;
-    height: 60px;
-    border-radius: 20px;
-    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    object-fit: contain;
 }
 
 .coding-list div h2 {
