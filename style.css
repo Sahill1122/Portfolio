@@ -376,6 +376,103 @@ nav ul li a:hover::after{
 .tabcontents.active-tab {
     display: block;
 }
+
+
+
+/* ------------ Skills & Technologies ------------ */
+
+#skills-technologies {
+    padding: 80px 0;
+    background: black;
+}
+
+.skills-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills-heading p {
+    color: #ff004f;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.skills-heading h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.skill-category {
+    margin-bottom: 45px;
+}
+
+.skill-category h2 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 55px;
+}
+
+.skill-category h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(90deg, #ff004f, #ff004f);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: black;
+    border: 1px solid #ff004f;
+    border-radius: 15px;
+    min-height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.4s, box-shadow 0.4s, border 0.4s;
+}
+
+.skill-card i {
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: #ff004f;
+}
+
+.skill-card p {
+    font-size: 17px;
+    color: #fff;
+    margin: 0;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    border-color: #ff004f;
+    box-shadow: 0 10px 30px #ff004f(100, 80, 255, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
 /*----- Work Experience -----*/
 
 #services {
