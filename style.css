@@ -378,65 +378,68 @@ nav ul li a:hover::after{
 }
 
 
-
 /* ------------ Skills & Technologies ------------ */
 
 #skills-technologies {
-    padding: 80px 0;
+    padding: 20px 0;
     background: black;
 }
 
 .skills-heading {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 12px;
 }
 
 .skills-heading p {
-    color: #ff004f;
-    font-size: 14px;
-    letter-spacing: 5px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 .skills-heading h1 {
-    font-size: 50px;
+    font-size: 60px;
     color: #fff;
+    margin: 0;
 }
 
+/* Category spacing */
 .skill-category {
-    margin-bottom: 45px;
+    margin-bottom: 12px;
 }
 
 .skill-category h2 {
-    font-size: 22px;
+    font-size: 20px;
     color: #fff;
-    margin-bottom: 20px;
+    margin: 0 0 6px;
     position: relative;
-    padding-left: 55px;
+    padding-left: 30px;
 }
 
 .skill-category h2::before {
     content: "";
     position: absolute;
     left: 0;
-    top: 13px;
-    width: 40px;
-    height: 3px;
-    background: linear-gradient(90deg, #ff004f, #ff004f);
+    top: 9px;
+    width: 20px;
+    height: 2px;
+    background: linear-gradient(90deg, #ff004f, #fff);
 }
 
+/* More compact cards */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(5, 305px);
     gap: 20px;
 }
 
 .skill-card {
     background: black;
-    border: 1px solid #ff004f;
+    border: 1px solid black;
     border-radius: 15px;
-    min-height: 120px;
+    min-height: 62px;
+    padding: 5px;
 
     display: flex;
     flex-direction: column;
@@ -447,24 +450,34 @@ nav ul li a:hover::after{
 }
 
 .skill-card i {
-    font-size: 38px;
-    margin-bottom: 15px;
+    font-size: 35px;
+    margin-bottom: 3px;
     color: #ff004f;
 }
 
 .skill-card p {
-    font-size: 17px;
+    font-size: 11px;
     color: #fff;
     margin: 0;
 }
 
 .skill-card:hover {
-    transform: translateY(-8px);
+    transform: scale(1.05);
     border-color: #ff004f;
-    box-shadow: 0 10px 30px #ff004f(100, 80, 255, 0.3);
+    box-shadow: 0 10px 30px rgba(255, 0, 81, 0.678);
+
+
+
+
+     background: linear-gradient(
+        rgba(0, 0, 0, 0.15),
+        rgba(255, 0, 79, 0.75)
+    ),
+    url("workbg.jpg");
+
+    background-size: cover;
+    background-position: center;
 }
-
-
 
 
 
