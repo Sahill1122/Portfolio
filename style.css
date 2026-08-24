@@ -534,6 +534,30 @@ nav ul li a:hover::after{
     display: block;
     cursor: pointer;
 }
+/* -------- Work Experience Details -------- */
+
+.services-list div h3 {
+    color: #ff004f;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.experience-date {
+    color: #ababab;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.experience-points {
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+.experience-points li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #ffffff;
+}
 
 /* SAME BRIGHT HOVER EFFECT AS PROFILES */
 
@@ -551,6 +575,13 @@ nav ul li a:hover::after{
     background-size: cover;
     background-position: center;
 }
+
+
+
+
+
+
+
 
 /*---------Projects -------*/
 #portfolio {
