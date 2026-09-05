@@ -318,7 +318,7 @@ nav ul li a:hover::after{
     flex-wrap:wrap;
  }
  .about-col1{
-    flex-basis: 35%;
+    flex-basis: 36%;
  }
  .about-col1 img{
     width: 100%;
