@@ -444,7 +444,7 @@ nav ul li a:hover::after{
 
 .skill-card {
     background: black;
-    border: 1px solid black;
+    border: 1px solid #333;
     border-radius: 15px;
     min-height: 62px;
     padding: 5px;
