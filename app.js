@@ -1174,7 +1174,7 @@ function opentab(tabname) {
 // ---------------- Typing Animation ----------------
 
 var typed = new Typed("#element", {
-    strings: ["I build responsive websites with HTML, CSS and JavaScript.."],
+    strings: ["I build responsive websites with HTML, CSS and JavaScript"],
     typeSpeed: 70,
     showCursor: true,
     cursorChar: "|",
